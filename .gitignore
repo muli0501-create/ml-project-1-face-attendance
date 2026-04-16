@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# YOLO 训练输出（文件较大，按需上传）
+runs/
+
+# 模型权重
+*.pt
+*.onnx
+
+# 人脸特征库编码（需重新生成）
+face_db/encodings.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
